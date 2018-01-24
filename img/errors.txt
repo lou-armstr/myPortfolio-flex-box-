@@ -1,0 +1,2 @@
+[2018-01-18 23:29:21] layer "info@myname.com": Unsupported extension: com
+[2018-01-18 23:24:12] layer "info@sitename.ru": Unsupported extension: ru

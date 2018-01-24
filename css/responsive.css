@@ -1,0 +1,131 @@
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        max-width: 760px;
+    }
+    h1 {
+        letter-spacing: .1em;
+        max-width: 15em;
+        font-size: 3em;
+        width: 90%;
+        margin-left: -45%;
+    }
+    .bg {
+        width: 100%;
+        max-width: 20em;
+    }
+    .merit {
+        width: 25em;
+    }
+    .connection {
+        flex-flow: column wrap;
+    }
+    .works {
+        flex-flow: row wrap;
+    }
+    .works__item {
+        margin-top: 20px;
+    }
+    .works__maintitle {
+        padding-bottom: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 538px;
+    }
+    nav {
+        flex-flow: column wrap;
+        align-items: center;
+        top: 5%;
+        max-width: 40em;
+        left: 50%;
+        width: 90%;
+        margin-left: -45%;
+        text-align: center;
+    }
+    .menu {
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .menu__item {
+        margin: 0 10px;
+    }
+    h2 {
+        text-align: center;
+    }
+    h1 {
+        max-width: 15em;
+        left: 50%;
+        font-size: 2em;
+    }
+    .about__content {
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .bg {
+        width: 100%;
+        max-width: none;
+    }
+    
+    .connection {
+        align-items: center;
+    }
+    .skills {
+        flex-flow: row wrap;
+    }
+    .skills__item {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .container {
+        max-width: 318px;
+        overflow: hidden;
+    }
+    nav {
+        max-width: none;
+    }
+    .menu,
+    .mail {
+        display: none;
+    }
+    h1 {
+        width: 100%;
+        max-width: 100%;
+        top: 50%;
+        margin: 0 auto;
+        margin-top: -2em;
+        margin-left: -50%;
+        
+    }
+    h1 span {
+        font-size: .7em;
+    }
+    .merits {
+        flex-flow: column wrap;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .skills {
+        flex-flow: column wrap;
+        margin-left: 30px;
+    }
+    .works {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .works__item {
+        margin-right: 0;
+    }
+    .footer {
+        text-align: center;
+        padding: 40px 0;
+    }
+}
